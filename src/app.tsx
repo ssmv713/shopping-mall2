@@ -1,4 +1,4 @@
-import { QueryClientProvider } from "react-query";
+import { QueryClient, QueryClientProvider } from "react-query";
 import { getClient } from "./queryClient";
 import { ReactQueryDevtools } from "react-query/devtools";
 import ProductList from "./pages/products";
